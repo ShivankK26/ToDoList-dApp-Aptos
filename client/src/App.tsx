@@ -1,4 +1,3 @@
-
 import { WalletSelector } from "@aptos-labs/wallet-adapter-ant-design";
 import { Layout, Row, Col, Button, Spin, List, Checkbox, Input } from "antd";
 
@@ -197,7 +196,7 @@ function App() {
                 block
                 onClick={addNewList}
                 type="primary"
-                style={{ height: "40px", backgroundColor: "#3f67ff" }}
+                style={{ height: "40px", backgroundColor: "#FF0000" }}
               >
                 Add new List
               </Button>
@@ -214,7 +213,7 @@ function App() {
                   size="large"
                   value={newTask}
                 />
-                <Button onClick={onTaskAdded} type="primary" style={{ height: "40px", backgroundColor: "#3f67ff" }}>
+                <Button onClick={onTaskAdded} type="primary" style={{ height: "40px", backgroundColor: "#FF0000" }}>
                   Add
                 </Button>
               </Input.Group>
